@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par Eclipse Implementation of JAXB, v3.0.0 
+Voir https://eclipse-ee4j.github.io/jaxb-ri 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2024.10.10 à 08:39:05 PM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://kamssa/guides/web-service">
+    <schemaBindings map="false">
+      <package name="kamssa.guides.web_service"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest">
+      <class ref="kamssa.guides.web_service.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="kamssa.guides.web_service.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="kamssa.guides.web_service.Country"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="kamssa.guides.web_service.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+
